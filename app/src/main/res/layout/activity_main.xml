@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.haidian.zhrd.MainActivity">
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/btn1"
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:layout_weight="1"
+            android:background="@drawable/radiobutton_background"
+            android:button="@null"
+            android:gravity="center"
+            android:text="P0501"
+            android:textColor="@color/radiobutton_textcolor"
+            android:textSize="14sp" />
+
+        <RadioButton
+            android:id="@+id/btn2"
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/radiobutton_background"
+            android:button="@null"
+            android:gravity="center"
+            android:text="P0502"
+            android:textColor="@color/radiobutton_textcolor"
+            android:textSize="14sp" />
+
+        <RadioButton
+            android:id="@+id/btn3"
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/radiobutton_background"
+            android:button="@null"
+            android:gravity="center"
+            android:text="P0503"
+            android:textColor="@color/radiobutton_textcolor"
+            android:textSize="14sp" />
+
+    </RadioGroup>
+
+
+
+</LinearLayout>
